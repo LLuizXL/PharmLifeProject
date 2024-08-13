@@ -83,8 +83,17 @@ header {
 }
 .membros-bio{
     display: flex;
-    align-items: left;
-    justify-content: flex-start;
-    gap: 10px;
-    max-width: 100px;
+flex-direction: column;
+
 }
+.textDir{
+    display: flex;
+    text-align: right;
+    align-items: center;
+}
+.textEsq{
+    display: flex;
+    text-align: left;
+    align-items: center;
+}
+
