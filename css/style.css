@@ -1,0 +1,60 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+
+}
+header{
+    color: #fff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.mainContainer{
+    position: relative;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+
+}
+
+.bgfundo{
+    background: url(https://placehold.co/1920x1080) no-repeat center/cover;
+    width: 100%;
+    height: 700px;
+
+}
+
+.siteHeader{
+    margin: 0px 40px;
+    display: flex;
+    justify-content: space-between;
+    height: 130px;
+}
+#navPrincipal{
+    display: flex;
+    align-items: center;
+}
+#navPrincipal ul{
+    display: flex;
+    align-items: center;
+    gap: 100px;
+}
+#navSecundaria{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.aprsntProjeto{
+    margin: 100px 0px 0px 0px;
+    display: flex;
+    justify-content: center;
+}
+
+#sobre-nos{
+
+}
