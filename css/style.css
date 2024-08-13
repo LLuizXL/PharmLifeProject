@@ -1,60 +1,90 @@
-body{
+body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
-
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-header{
+
+header {
     color: #fff;
-    position: fixed;
+    position: relative;
     top: 0;
     left: 0;
     right: 0;
+    text-decoration: none;
 }
 
-.mainContainer{
-    position: relative;
+.mainContainer {
+    text-decoration: none;
     margin: 0;
     padding: 0;
-    overflow: hidden;
-
 }
 
-.bgfundo{
+.bgfundo {
+    position: relative;
     background: url(https://placehold.co/1920x1080) no-repeat center/cover;
     width: 100%;
     height: 700px;
-
 }
 
-.siteHeader{
-    margin: 0px 40px;
+.siteHeader {
     display: flex;
     justify-content: space-between;
-    height: 130px;
+    height: 100px;
 }
-#navPrincipal{
+
+.container {
+    max-width: 1073px;
+    margin: 0 auto;
+    text-decoration: none;
+}
+
+#navPrincipal {
     display: flex;
     align-items: center;
 }
-#navPrincipal ul{
+
+#navPrincipal ul {
+    list-style: none;
     display: flex;
     align-items: center;
     gap: 100px;
 }
-#navSecundaria{
+
+#navPrincipal a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 650;
+}
+
+#navSecundaria {
     display: flex;
     align-items: center;
     gap: 20px;
 }
 
-.aprsntProjeto{
-    margin: 100px 0px 0px 0px;
+#mainProject {
+    display: flex;
+    flex-direction: column;
+    margin-top: 200px;
+    align-items: center;
+    justify-content: center;
+}
+
+#membros-bio {
+    margin: 50px;
     display: flex;
     justify-content: center;
 }
 
-#sobre-nos{
-
+.membros-bio img{
+    border-radius: 50%;
+    display: flex;
+}
+.membros-bio{
+    display: flex;
+    align-items: left;
+    justify-content: flex-start;
+    gap: 10px;
+    max-width: 100px;
 }
