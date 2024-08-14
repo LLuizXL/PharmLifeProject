@@ -13,6 +13,9 @@ header {
     right: 0;
     text-decoration: none;
 }
+main{
+    margin-top: 150px;
+}
 
 .mainContainer {
     text-decoration: none;
@@ -71,29 +74,28 @@ header {
     justify-content: center;
 }
 
-#membros-bio {
-    margin: 50px;
-    display: flex;
-    justify-content: center;
-}
-
 .membros-bio img{
     border-radius: 50%;
     display: flex;
 }
 .membros-bio{
+    padding: 0px 120px;
     display: flex;
 flex-direction: column;
 
 }
 .textDir{
     display: flex;
-    text-align: right;
+    text-align: left;
     align-items: center;
 }
 .textEsq{
     display: flex;
     text-align: left;
     align-items: center;
+}
+.texto-bio{
+    padding-left: 30px;
+    padding-right: 30px ;
 }
 
